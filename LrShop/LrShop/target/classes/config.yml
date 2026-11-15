@@ -1,0 +1,16 @@
+# LrShop - by Lrs
+# Currency ids must be one of LrEconomy: puntoskits, dinero, poder
+default-currency: dinero
+
+# How prices are displayed. Placeholder: {amount}
+formats:
+  dinero: "${amount}"
+  puntoskits: "{amount} Punto Kit"
+  poder: "⚡{amount}"
+
+sell:
+  # true = only items without custom meta (no names, enchants, damage) can be sold
+  only-plain-items: true
+
+gui:
+  max-quantity: 2304

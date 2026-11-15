@@ -1,0 +1,51 @@
+name: LrShop
+version: '1.0'
+main: dev.lrs.lrshop.LrShop
+api-version: '1.21'
+authors: [Lrs]
+description: Shop, sell, sellall and sellgui using LrEconomy.
+depend: [LrEconomy]
+
+commands:
+  shop:
+    description: Open the shop
+    usage: /<command> [category]
+    aliases: [tienda]
+  sell:
+    description: Sell items
+    usage: /<command> [hand|all|gui] [amount]
+    aliases: [vender]
+  sellall:
+    description: Sell every sellable item in your inventory
+    usage: /<command>
+    aliases: [venderall]
+  sellgui:
+    description: Open the sell GUI
+    usage: /<command>
+    aliases: [vendergui]
+  worth:
+    description: Show the price of the item in your hand
+    usage: /<command>
+  lrshop:
+    description: LrShop admin command
+    usage: /<command> reload
+
+permissions:
+  lrshop.shop:
+    description: Use /shop
+    default: true
+  lrshop.sell:
+    description: Use /sell
+    default: true
+  lrshop.sellall:
+    description: Use /sellall
+    default: true
+  lrshop.sellgui:
+    description: Use /sellgui
+    default: true
+  lrshop.worth:
+    description: Use /worth
+    default: true
+  lrshop.admin:
+    description: Administrative commands
+    default: op

@@ -1,0 +1,459 @@
+# LrShop - shop.yml (by Lrs)
+# buy: -1 = cannot be bought | sell: -1 = cannot be sold
+# Optional per item or per category: currency: dinero|puntoskits|poder
+
+menu:
+  title: "&8Tienda"
+  size: 27
+  filler: true
+  filler-material: GRAY_STAINED_GLASS_PANE
+
+categories:
+  blocks:
+    name: "&aBloques"
+    icon: GRASS_BLOCK
+    slot: 10
+    lore:
+      - "&7Bloques de construccion"
+    items:
+      - {material: STONE, buy: 10, sell: 2}
+      - {material: COBBLESTONE, buy: 5, sell: 1}
+      - {material: DEEPSLATE, buy: 12, sell: 2}
+      - {material: COBBLED_DEEPSLATE, buy: 6, sell: 1}
+      - {material: ANDESITE, buy: 8, sell: 1}
+      - {material: DIORITE, buy: 8, sell: 1}
+      - {material: GRANITE, buy: 8, sell: 1}
+      - {material: DIRT, buy: 4, sell: 0.5}
+      - {material: GRASS_BLOCK, buy: 8, sell: 1}
+      - {material: SAND, buy: 8, sell: 1}
+      - {material: RED_SAND, buy: 8, sell: 1}
+      - {material: GRAVEL, buy: 6, sell: 1}
+      - {material: CLAY, buy: 20, sell: 4}
+      - {material: SANDSTONE, buy: 12, sell: 2}
+      - {material: TERRACOTTA, buy: 25, sell: 5}
+      - {material: GLASS, buy: 15, sell: 3}
+      - {material: BRICKS, buy: 40, sell: 8}
+      - {material: STONE_BRICKS, buy: 15, sell: 3}
+      - {material: SMOOTH_STONE, buy: 14, sell: 3}
+      - {material: QUARTZ_BLOCK, buy: 120, sell: 20}
+      - {material: OBSIDIAN, buy: 150, sell: 30}
+      - {material: NETHERRACK, buy: 4, sell: 0.5}
+      - {material: SOUL_SAND, buy: 15, sell: 3}
+      - {material: GLOWSTONE, buy: 80, sell: 15}
+      - {material: END_STONE, buy: 25, sell: 5}
+      - {material: PRISMARINE, buy: 60, sell: 10}
+      - {material: MOSS_BLOCK, buy: 20, sell: 4}
+      - {material: ICE, buy: 20, sell: 4}
+      - {material: SNOW_BLOCK, buy: 10, sell: 2}
+      - {material: WHITE_WOOL, buy: 25, sell: 5}
+      - {material: POLISHED_ANDESITE, buy: 10, sell: 2}
+      - {material: POLISHED_DIORITE, buy: 10, sell: 2}
+      - {material: POLISHED_GRANITE, buy: 10, sell: 2}
+      - {material: POLISHED_DEEPSLATE, buy: 14, sell: 3}
+      - {material: DEEPSLATE_BRICKS, buy: 16, sell: 3}
+      - {material: DEEPSLATE_TILES, buy: 16, sell: 3}
+      - {material: CHISELED_STONE_BRICKS, buy: 18, sell: 4}
+      - {material: MOSSY_COBBLESTONE, buy: 12, sell: 2}
+      - {material: MOSSY_STONE_BRICKS, buy: 16, sell: 3}
+      - {material: CRACKED_STONE_BRICKS, buy: 16, sell: 3}
+      - {material: SMOOTH_SANDSTONE, buy: 14, sell: 3}
+      - {material: CUT_SANDSTONE, buy: 14, sell: 3}
+      - {material: CHISELED_SANDSTONE, buy: 16, sell: 3}
+      - {material: RED_SANDSTONE, buy: 12, sell: 2}
+      - {material: SMOOTH_RED_SANDSTONE, buy: 14, sell: 3}
+      - {material: COARSE_DIRT, buy: 5, sell: 1}
+      - {material: PODZOL, buy: 10, sell: 2}
+      - {material: MYCELIUM, buy: 25, sell: 5}
+      - {material: ROOTED_DIRT, buy: 8, sell: 1}
+      - {material: MUD, buy: 6, sell: 1}
+      - {material: MUD_BRICKS, buy: 18, sell: 4}
+      - {material: PACKED_MUD, buy: 10, sell: 2}
+      - {material: TUFF, buy: 8, sell: 1}
+      - {material: POLISHED_TUFF, buy: 10, sell: 2}
+      - {material: TUFF_BRICKS, buy: 12, sell: 2}
+      - {material: CALCITE, buy: 12, sell: 2}
+      - {material: DRIPSTONE_BLOCK, buy: 12, sell: 2}
+      - {material: BASALT, buy: 10, sell: 2}
+      - {material: SMOOTH_BASALT, buy: 12, sell: 2}
+      - {material: POLISHED_BASALT, buy: 12, sell: 2}
+      - {material: BLACKSTONE, buy: 12, sell: 2}
+      - {material: POLISHED_BLACKSTONE, buy: 14, sell: 3}
+      - {material: POLISHED_BLACKSTONE_BRICKS, buy: 16, sell: 3}
+      - {material: GILDED_BLACKSTONE, buy: 60, sell: 12}
+      - {material: NETHER_BRICKS, buy: 18, sell: 3}
+      - {material: RED_NETHER_BRICKS, buy: 24, sell: 5}
+      - {material: MAGMA_BLOCK, buy: 30, sell: 6}
+      - {material: CRYING_OBSIDIAN, buy: 250, sell: 50}
+      - {material: SHROOMLIGHT, buy: 60, sell: 12}
+      - {material: BONE_BLOCK, buy: 90, sell: 18}
+      - {material: SOUL_SOIL, buy: 12, sell: 2}
+      - {material: CRIMSON_NYLIUM, buy: 25, sell: 5}
+      - {material: WARPED_NYLIUM, buy: 25, sell: 5}
+      - {material: PURPUR_BLOCK, buy: 40, sell: 8}
+      - {material: PURPUR_PILLAR, buy: 42, sell: 8}
+      - {material: END_STONE_BRICKS, buy: 28, sell: 5}
+      - {material: SEA_LANTERN, buy: 150, sell: 30}
+      - {material: PRISMARINE_BRICKS, buy: 70, sell: 14}
+      - {material: DARK_PRISMARINE, buy: 80, sell: 16}
+      - {material: AMETHYST_BLOCK, buy: 160, sell: 32}
+      - {material: PACKED_ICE, buy: 30, sell: 6}
+      - {material: BLUE_ICE, buy: 90, sell: 18}
+      - {material: SPONGE, buy: 100, sell: 20}
+      - {material: HONEYCOMB_BLOCK, buy: 120, sell: 24}
+      - {material: DRIED_KELP_BLOCK, buy: 30, sell: 6}
+      - {material: COPPER_BLOCK, buy: 270, sell: 54}
+      - {material: CUT_COPPER, buy: 270, sell: 54}
+      - {material: CHISELED_COPPER, buy: 280, sell: 56}
+      - {material: QUARTZ_BRICKS, buy: 125, sell: 25}
+      - {material: QUARTZ_PILLAR, buy: 125, sell: 25}
+      - {material: SMOOTH_QUARTZ, buy: 125, sell: 25}
+      - {material: CHISELED_QUARTZ_BLOCK, buy: 125, sell: 25}
+      - {material: LAPIS_BLOCK, buy: 270, sell: 54}
+      - {material: REDSTONE_BLOCK, buy: 225, sell: 45}
+      - {material: BOOKSHELF, buy: 80, sell: 16}
+      - {material: TINTED_GLASS, buy: 120, sell: 24}
+      - {material: LANTERN, buy: 40, sell: 8}
+      - {material: SOUL_LANTERN, buy: 45, sell: 9}
+      - {material: TORCH, buy: 6, sell: 1}
+      - {material: SOUL_TORCH, buy: 8, sell: 1}
+      - {material: GLASS_PANE, buy: 3, sell: 0.5}
+      - {material: IRON_BARS, buy: 20, sell: 4}
+      - {material: CHAIN, buy: 12, sell: 2}
+      - {material: SCAFFOLDING, buy: 12, sell: 2}
+      - {material: OAK_LEAVES, buy: 4, sell: 0.5}
+      - {material: MOSS_CARPET, buy: 8, sell: 1}
+      - {material: SEA_PICKLE, buy: 15, sell: 3}
+      - {material: DIRT_PATH, buy: 8, sell: 1}
+      - {material: FARMLAND, buy: 8, sell: 1}
+      - {material: NOTE_BLOCK, buy: 40, sell: 8}
+      - {material: JUKEBOX, buy: 600, sell: 120}
+      - {material: WHITE_CONCRETE, buy: 20, sell: 4}
+      - {material: WHITE_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: WHITE_TERRACOTTA, buy: 25, sell: 5}
+      - {material: WHITE_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: WHITE_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: WHITE_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: WHITE_CARPET, buy: 8, sell: 1}
+      - {material: ORANGE_WOOL, buy: 25, sell: 5}
+      - {material: ORANGE_CONCRETE, buy: 20, sell: 4}
+      - {material: ORANGE_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: ORANGE_TERRACOTTA, buy: 25, sell: 5}
+      - {material: ORANGE_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: ORANGE_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: ORANGE_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: ORANGE_CARPET, buy: 8, sell: 1}
+      - {material: MAGENTA_WOOL, buy: 25, sell: 5}
+      - {material: MAGENTA_CONCRETE, buy: 20, sell: 4}
+      - {material: MAGENTA_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: MAGENTA_TERRACOTTA, buy: 25, sell: 5}
+      - {material: MAGENTA_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: MAGENTA_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: MAGENTA_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: MAGENTA_CARPET, buy: 8, sell: 1}
+      - {material: LIGHT_BLUE_WOOL, buy: 25, sell: 5}
+      - {material: LIGHT_BLUE_CONCRETE, buy: 20, sell: 4}
+      - {material: LIGHT_BLUE_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: LIGHT_BLUE_TERRACOTTA, buy: 25, sell: 5}
+      - {material: LIGHT_BLUE_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: LIGHT_BLUE_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: LIGHT_BLUE_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: LIGHT_BLUE_CARPET, buy: 8, sell: 1}
+      - {material: YELLOW_WOOL, buy: 25, sell: 5}
+      - {material: YELLOW_CONCRETE, buy: 20, sell: 4}
+      - {material: YELLOW_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: YELLOW_TERRACOTTA, buy: 25, sell: 5}
+      - {material: YELLOW_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: YELLOW_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: YELLOW_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: YELLOW_CARPET, buy: 8, sell: 1}
+      - {material: LIME_WOOL, buy: 25, sell: 5}
+      - {material: LIME_CONCRETE, buy: 20, sell: 4}
+      - {material: LIME_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: LIME_TERRACOTTA, buy: 25, sell: 5}
+      - {material: LIME_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: LIME_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: LIME_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: LIME_CARPET, buy: 8, sell: 1}
+      - {material: PINK_WOOL, buy: 25, sell: 5}
+      - {material: PINK_CONCRETE, buy: 20, sell: 4}
+      - {material: PINK_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: PINK_TERRACOTTA, buy: 25, sell: 5}
+      - {material: PINK_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: PINK_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: PINK_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: PINK_CARPET, buy: 8, sell: 1}
+      - {material: GRAY_WOOL, buy: 25, sell: 5}
+      - {material: GRAY_CONCRETE, buy: 20, sell: 4}
+      - {material: GRAY_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: GRAY_TERRACOTTA, buy: 25, sell: 5}
+      - {material: GRAY_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: GRAY_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: GRAY_CARPET, buy: 8, sell: 1}
+      - {material: LIGHT_GRAY_WOOL, buy: 25, sell: 5}
+      - {material: LIGHT_GRAY_CONCRETE, buy: 20, sell: 4}
+      - {material: LIGHT_GRAY_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: LIGHT_GRAY_TERRACOTTA, buy: 25, sell: 5}
+      - {material: LIGHT_GRAY_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: LIGHT_GRAY_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: LIGHT_GRAY_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: LIGHT_GRAY_CARPET, buy: 8, sell: 1}
+      - {material: CYAN_WOOL, buy: 25, sell: 5}
+      - {material: CYAN_CONCRETE, buy: 20, sell: 4}
+      - {material: CYAN_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: CYAN_TERRACOTTA, buy: 25, sell: 5}
+      - {material: CYAN_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: CYAN_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: CYAN_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: CYAN_CARPET, buy: 8, sell: 1}
+      - {material: PURPLE_WOOL, buy: 25, sell: 5}
+      - {material: PURPLE_CONCRETE, buy: 20, sell: 4}
+      - {material: PURPLE_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: PURPLE_TERRACOTTA, buy: 25, sell: 5}
+      - {material: PURPLE_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: PURPLE_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: PURPLE_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: PURPLE_CARPET, buy: 8, sell: 1}
+      - {material: BLUE_WOOL, buy: 25, sell: 5}
+      - {material: BLUE_CONCRETE, buy: 20, sell: 4}
+      - {material: BLUE_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: BLUE_TERRACOTTA, buy: 25, sell: 5}
+      - {material: BLUE_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: BLUE_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: BLUE_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: BLUE_CARPET, buy: 8, sell: 1}
+      - {material: BROWN_WOOL, buy: 25, sell: 5}
+      - {material: BROWN_CONCRETE, buy: 20, sell: 4}
+      - {material: BROWN_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: BROWN_TERRACOTTA, buy: 25, sell: 5}
+      - {material: BROWN_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: BROWN_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: BROWN_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: BROWN_CARPET, buy: 8, sell: 1}
+      - {material: GREEN_WOOL, buy: 25, sell: 5}
+      - {material: GREEN_CONCRETE, buy: 20, sell: 4}
+      - {material: GREEN_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: GREEN_TERRACOTTA, buy: 25, sell: 5}
+      - {material: GREEN_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: GREEN_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: GREEN_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: GREEN_CARPET, buy: 8, sell: 1}
+      - {material: RED_WOOL, buy: 25, sell: 5}
+      - {material: RED_CONCRETE, buy: 20, sell: 4}
+      - {material: RED_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: RED_TERRACOTTA, buy: 25, sell: 5}
+      - {material: RED_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: RED_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: RED_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: RED_CARPET, buy: 8, sell: 1}
+      - {material: BLACK_WOOL, buy: 25, sell: 5}
+      - {material: BLACK_CONCRETE, buy: 20, sell: 4}
+      - {material: BLACK_CONCRETE_POWDER, buy: 18, sell: 3}
+      - {material: BLACK_TERRACOTTA, buy: 25, sell: 5}
+      - {material: BLACK_GLAZED_TERRACOTTA, buy: 35, sell: 7}
+      - {material: BLACK_STAINED_GLASS, buy: 18, sell: 3}
+      - {material: BLACK_STAINED_GLASS_PANE, buy: 4, sell: 0.5}
+      - {material: BLACK_CARPET, buy: 8, sell: 1}
+  wood:
+    name: "&6Madera"
+    icon: OAK_LOG
+    slot: 11
+    lore:
+      - "&7Troncos y tablones"
+    items:
+      - {material: OAK_LOG, buy: 15, sell: 3}
+      - {material: SPRUCE_LOG, buy: 15, sell: 3}
+      - {material: BIRCH_LOG, buy: 15, sell: 3}
+      - {material: JUNGLE_LOG, buy: 15, sell: 3}
+      - {material: ACACIA_LOG, buy: 15, sell: 3}
+      - {material: DARK_OAK_LOG, buy: 15, sell: 3}
+      - {material: MANGROVE_LOG, buy: 15, sell: 3}
+      - {material: CHERRY_LOG, buy: 15, sell: 3}
+      - {material: OAK_PLANKS, buy: 4, sell: 0.75}
+      - {material: SPRUCE_PLANKS, buy: 4, sell: 0.75}
+      - {material: BIRCH_PLANKS, buy: 4, sell: 0.75}
+      - {material: JUNGLE_PLANKS, buy: 4, sell: 0.75}
+      - {material: ACACIA_PLANKS, buy: 4, sell: 0.75}
+      - {material: DARK_OAK_PLANKS, buy: 4, sell: 0.75}
+      - {material: MANGROVE_PLANKS, buy: 4, sell: 0.75}
+      - {material: CHERRY_PLANKS, buy: 4, sell: 0.75}
+      - {material: STICK, buy: 2, sell: 0.25}
+      - {material: CRAFTING_TABLE, buy: 20, sell: 3}
+      - {material: CHEST, buy: 30, sell: 5}
+      - {material: BARREL, buy: 30, sell: 5}
+  ores:
+    name: "&bMinerales"
+    icon: DIAMOND
+    slot: 12
+    lore:
+      - "&7Minerales y lingotes"
+    items:
+      - {material: COAL, buy: 30, sell: 6}
+      - {material: CHARCOAL, buy: 25, sell: 5}
+      - {material: RAW_IRON, buy: 40, sell: 8}
+      - {material: IRON_INGOT, buy: 60, sell: 12}
+      - {material: RAW_COPPER, buy: 20, sell: 4}
+      - {material: COPPER_INGOT, buy: 30, sell: 6}
+      - {material: RAW_GOLD, buy: 80, sell: 16}
+      - {material: GOLD_INGOT, buy: 120, sell: 25}
+      - {material: REDSTONE, buy: 25, sell: 5}
+      - {material: LAPIS_LAZULI, buy: 30, sell: 6}
+      - {material: DIAMOND, buy: 600, sell: 150}
+      - {material: EMERALD, buy: 500, sell: 120}
+      - {material: QUARTZ, buy: 40, sell: 8}
+      - {material: AMETHYST_SHARD, buy: 40, sell: 8}
+      - {material: NETHERITE_SCRAP, buy: 2500, sell: 500}
+      - {material: NETHERITE_INGOT, buy: 12000, sell: 3000}
+      - {material: COAL_BLOCK, buy: 270, sell: 54}
+      - {material: IRON_BLOCK, buy: 540, sell: 108}
+      - {material: GOLD_BLOCK, buy: 1080, sell: 225}
+      - {material: DIAMOND_BLOCK, buy: 5400, sell: 1350}
+      - {material: EMERALD_BLOCK, buy: 4500, sell: 1080}
+  farming:
+    name: "&eGranja"
+    icon: WHEAT
+    slot: 13
+    lore:
+      - "&7Cultivos y semillas"
+    items:
+      - {material: WHEAT, buy: 8, sell: 2}
+      - {material: WHEAT_SEEDS, buy: 3, sell: 0.5}
+      - {material: CARROT, buy: 6, sell: 1.5}
+      - {material: POTATO, buy: 6, sell: 1.5}
+      - {material: BEETROOT, buy: 6, sell: 1.5}
+      - {material: BEETROOT_SEEDS, buy: 3, sell: 0.5}
+      - {material: MELON_SLICE, buy: 3, sell: 0.75}
+      - {material: MELON, buy: 25, sell: 6}
+      - {material: PUMPKIN, buy: 15, sell: 4}
+      - {material: SUGAR_CANE, buy: 5, sell: 1}
+      - {material: BAMBOO, buy: 3, sell: 0.5}
+      - {material: CACTUS, buy: 8, sell: 2}
+      - {material: COCOA_BEANS, buy: 10, sell: 2}
+      - {material: SWEET_BERRIES, buy: 6, sell: 1.5}
+      - {material: KELP, buy: 3, sell: 0.5}
+      - {material: NETHER_WART, buy: 20, sell: 5}
+      - {material: BONE_MEAL, buy: 10, sell: 2}
+      - {material: HAY_BLOCK, buy: 70, sell: 18}
+      - {material: OAK_SAPLING, buy: 15, sell: 3}
+      - {material: SPRUCE_SAPLING, buy: 15, sell: 3}
+      - {material: BIRCH_SAPLING, buy: 15, sell: 3}
+  food:
+    name: "&cComida"
+    icon: COOKED_BEEF
+    slot: 14
+    lore:
+      - "&7Alimentos"
+    items:
+      - {material: BREAD, buy: 15, sell: 4}
+      - {material: COOKED_BEEF, buy: 30, sell: 8}
+      - {material: COOKED_PORKCHOP, buy: 30, sell: 8}
+      - {material: COOKED_CHICKEN, buy: 25, sell: 6}
+      - {material: COOKED_MUTTON, buy: 25, sell: 6}
+      - {material: COOKED_COD, buy: 20, sell: 5}
+      - {material: COOKED_SALMON, buy: 22, sell: 5}
+      - {material: BAKED_POTATO, buy: 10, sell: 3}
+      - {material: APPLE, buy: 12, sell: 3}
+      - {material: GOLDEN_CARROT, buy: 40, sell: 10}
+      - {material: COOKIE, buy: 6, sell: 1}
+      - {material: PUMPKIN_PIE, buy: 30, sell: 8}
+      - {material: CAKE, buy: 60, sell: -1}
+      - {material: GOLDEN_APPLE, buy: 800, sell: -1}
+      - {material: BEEF, buy: 12, sell: 3}
+      - {material: PORKCHOP, buy: 12, sell: 3}
+      - {material: CHICKEN, buy: 10, sell: 2}
+      - {material: MUTTON, buy: 10, sell: 2}
+      - {material: COD, buy: 8, sell: 2}
+      - {material: SALMON, buy: 9, sell: 2}
+  mobs:
+    name: "&5Drops de Mobs"
+    icon: ENDER_PEARL
+    slot: 15
+    lore:
+      - "&7Items de monstruos"
+    items:
+      - {material: ROTTEN_FLESH, buy: 4, sell: 1}
+      - {material: BONE, buy: 10, sell: 2}
+      - {material: STRING, buy: 10, sell: 2}
+      - {material: SPIDER_EYE, buy: 12, sell: 3}
+      - {material: GUNPOWDER, buy: 25, sell: 5}
+      - {material: ENDER_PEARL, buy: 80, sell: 20}
+      - {material: BLAZE_ROD, buy: 100, sell: 25}
+      - {material: SLIME_BALL, buy: 30, sell: 6}
+      - {material: GHAST_TEAR, buy: 200, sell: 40}
+      - {material: LEATHER, buy: 15, sell: 3}
+      - {material: FEATHER, buy: 5, sell: 1}
+      - {material: EGG, buy: 5, sell: 1}
+      - {material: INK_SAC, buy: 10, sell: 2}
+      - {material: PHANTOM_MEMBRANE, buy: 60, sell: 12}
+      - {material: MAGMA_CREAM, buy: 40, sell: 8}
+      - {material: SHULKER_SHELL, buy: 500, sell: 100}
+      - {material: NETHER_STAR, buy: 5000, sell: 1000}
+      - {material: ARROW, buy: 5, sell: 1}
+      - {material: PRISMARINE_SHARD, buy: 25, sell: 5}
+  redstone:
+    name: "&4Redstone"
+    icon: REDSTONE
+    slot: 16
+    lore:
+      - "&7Mecanismos"
+    items:
+      - {material: REDSTONE_TORCH, buy: 30, sell: 6}
+      - {material: REPEATER, buy: 80, sell: 15}
+      - {material: COMPARATOR, buy: 120, sell: 25}
+      - {material: PISTON, buy: 100, sell: 20}
+      - {material: STICKY_PISTON, buy: 140, sell: 30}
+      - {material: OBSERVER, buy: 90, sell: 18}
+      - {material: HOPPER, buy: 200, sell: 40}
+      - {material: DISPENSER, buy: 90, sell: 18}
+      - {material: DROPPER, buy: 80, sell: 16}
+      - {material: TNT, buy: 150, sell: 30}
+      - {material: LEVER, buy: 8, sell: 1}
+      - {material: STONE_BUTTON, buy: 6, sell: 1}
+      - {material: STONE_PRESSURE_PLATE, buy: 10, sell: 2}
+      - {material: REDSTONE_LAMP, buy: 90, sell: 18}
+      - {material: SLIME_BLOCK, buy: 270, sell: 54}
+      - {material: DAYLIGHT_DETECTOR, buy: 100, sell: 20}
+      - {material: RAIL, buy: 20, sell: 4}
+      - {material: POWERED_RAIL, buy: 120, sell: 25}
+      - {material: MINECART, buy: 120, sell: 25}
+  armor:
+    name: "&dArmaduras"
+    icon: DIAMOND_CHESTPLATE
+    slot: 22
+    currency: poder
+    type: random-armor
+    lore:
+      - "&7Armaduras, armas y herramientas"
+      - "&7con encantamientos random"
+      - "&7Precio en &dPoder"
+    random:
+      min-price: 2
+      max-price: 7
+      # Chance (0-100) of an armor piece having no enchantments
+      no-enchant-chance: 25
+      # Max number of random enchantments per piece
+      max-enchants: 4
+      # Cost in currency to renew the stock (0 = free)
+      reroll-cost: 0
+      # Base price per material; +1/+2/+3 for 2/3/4 enchantments (clamped to min/max)
+      tier-prices:
+        leather: 2
+        wooden: 2
+        stone: 2
+        trident: 4
+        mace: 5
+        chainmail: 2
+        iron: 3
+        golden: 3
+        diamond: 4
+        netherite: 5
+
+# Items that can only be sold (not shown in the shop)
+sell-only:
+  - {material: POISONOUS_POTATO, sell: 1}
+  - {material: TROPICAL_FISH, sell: 3}
+  - {material: PUFFERFISH, sell: 4}
+  - {material: TURTLE_SCUTE, sell: 30}
+  - {material: DRIED_KELP, sell: 1}
+  - {material: COBBLED_DEEPSLATE_SLAB, sell: 1}
+  - {material: SPONGE, sell: 50}
+  - {material: NAUTILUS_SHELL, sell: 100}

@@ -1,0 +1,16 @@
+dev\lrs\lrshop\Gui$ShopHolder.class
+dev\lrs\lrshop\LrShop.class
+dev\lrs\lrshop\ShopManager.class
+dev\lrs\lrshop\Gui$ArmorHolder.class
+dev\lrs\lrshop\ShopManager$ShopItem.class
+dev\lrs\lrshop\ShopManager$Category.class
+dev\lrs\lrshop\Commands.class
+dev\lrs\lrshop\Gui.class
+dev\lrs\lrshop\Text.class
+dev\lrs\lrshop\Msg.class
+dev\lrs\lrshop\Gui$1.class
+dev\lrs\lrshop\Gui$Offer.class
+dev\lrs\lrshop\SellService.class
+dev\lrs\lrshop\Gui$SellHolder.class
+dev\lrs\lrshop\EconomyBridge.class
+dev\lrs\lrshop\Gui$QuantityHolder.class
